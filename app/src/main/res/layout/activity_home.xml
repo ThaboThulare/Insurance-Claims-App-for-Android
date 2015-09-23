@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/r1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    >
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnClaim"
+        android:layout_marginBottom="88dp"
+        android:layout_above="@+id/btnPicture"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginStart="53dp"
+        android:src="@drawable/crash_icon"
+        />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnEmegency"
+        android:layout_alignTop="@+id/btnClaim"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="66dp"
+        android:layout_marginEnd="66dp"
+        android:src="@drawable/emergency"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnPicture"
+        android:layout_marginBottom="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnClaim"
+        android:layout_alignStart="@+id/btnClaim"
+        android:src="@drawable/camera"/>
+
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnAbout"
+        android:layout_alignTop="@+id/btnPicture"
+        android:layout_alignLeft="@+id/btnEmegency"
+        android:layout_alignStart="@+id/btnEmegency"
+        android:src="@drawable/about_us"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Involved In A Car Accident?"
+        android:textColor="#FF0000"
+        android:textSize="25sp"
+        android:id="@+id/textView"
+        android:layout_above="@+id/btnClaim"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Take Pictures"
+        android:textColor="#edeff1"
+        android:id="@+id/textView2"
+
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignLeft="@+id/btnPicture"
+        android:layout_alignStart="@+id/btnPicture" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Contact Emergency"
+        android:id="@+id/textView3"
+        android:textColor="#edeff1"
+        android:layout_alignRight="@+id/btnEmegency"
+        android:layout_alignEnd="@+id/btnEmegency"
+        android:layout_below="@+id/btnEmegency" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Claim"
+        android:textColor="#edeff1"
+        android:id="@+id/textView4"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/btnClaim"
+     />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="About Us"
+        android:id="@+id/textView5"
+        android:layout_alignRight="@+id/btnAbout"
+        android:layout_alignEnd="@+id/btnAbout"
+        android:layout_below="@+id/btnAbout"
+        android:textColor="#edeff1"
+      />
+
+</RelativeLayout>

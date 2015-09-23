@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="@drawable/background"    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" >
+
+   <LinearLayout
+    	        android:id="@+id/camera_preview"
+    	        android:layout_width="fill_parent"
+                android:layout_height="20dp"
+     	        android:layout_weight="0.80"
+                 android:orientation="vertical"
+                 >
+
+
+   </LinearLayout>
+
+    <Button
+        android:id="@+id/button_capture"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:text="Capture"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+
+    <Button
+        android:id="@+id/button_ChangeCamera"
+         android:gravity="center"
+        android:layout_width="fill_parent"
+        android:text="Switch Camera"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Your Current Address"
+        android:id="@+id/btnGetAddress"/>
+
+    <LinearLayout
+    	        android:id="@+id/buttonsLayout"
+    	        android:layout_width="fill_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_gravity="center"
+                android:weightSum="100"
+    	        android:orientation="horizontal" >
+
+
+    </LinearLayout>
+</LinearLayout>

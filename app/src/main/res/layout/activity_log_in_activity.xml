@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<LinearLayout
+    android:weightSum="100"
+    android:background="@color/background_material_light"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="#048091"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/txtSignIn"
+        android:layout_weight="12"/>
+
+    <TextView android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:text="@string/txtEmail"
+        android:layout_weight="4"/>
+
+    <EditText android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:textSize="12sp"
+        android:id="@+id/edtEnail"
+        android:inputType="textPersonName"/>
+
+    <TextView android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:text="@string/txtpassword"
+        android:layout_weight="4"/>
+
+    <EditText android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:textSize="12sp"
+        android:id="@+id/edtPassword"
+        android:inputType="textPassword"/>
+
+    <Button android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="@string/btnSignIn"
+        android:layout_weight="7"
+        android:id="@+id/btnSignIn"
+        />
+
+    <TextView android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:text="@string/txtAccount"
+        android:layout_weight="5"/>
+
+    <Button android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="@string/btnRegister"
+        android:layout_weight="7"
+        android:id="@+id/btnRegister"
+        />
+
+</LinearLayout>

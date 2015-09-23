@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#FF0000"
+        android:text="Call Emegency"
+
+        />
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call 911" />
+    <Button
+        android:id="@+id/btnPolice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call the Police" />
+    <Button
+        android:id="@+id/btnTow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call a Tow car" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/background_material_light">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_weight="12"
+        android:layout_height="0dp"
+        android:text=" Insurance \n Application"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#048091"
+        android:gravity="center"/>
+
+    </LinearLayout>
